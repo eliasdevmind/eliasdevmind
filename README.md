@@ -1,4 +1,4 @@
-# Bem vindo ao meu GitHub!  
+# 👋 Bem-vindo ao meu GitHub!  
 
 > Desenvolvedor Full Stack & Analista de Dados — apaixonado por transformar ideias e dados em soluções inteligentes 🚀  
 
@@ -9,12 +9,15 @@
 - 🧑‍💻 Trabalho com **desenvolvimento web, backend, automações e análise de dados**  
 - 📊 Gosto de transformar números em **insights poderosos**  
 - 🎮 Gamer nas horas vagas & curioso por natureza  
+- 💡 Apaixonado por **tecnologia e inovação**  
 
 ---
 
 ## 📊 Estatísticas do GitHub
-![Elias GitHub Stats](https://github-readme-stats.vercel.app/api?username=eliasdevmind&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=eliasdevmind&layout=compact&theme=tokyonight&hide_border=true)
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=eliasdevmind&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=eliasdevmind&layout=compact&theme=tokyonight&hide_border=true" alt="Top Langs" />
+</p>
 
 ---
 
@@ -45,15 +48,29 @@
 ---
 
 ## 🔥 Atividade no GitHub
-![GitHub Streak](https://streak-stats.demolab.com?user=eliasdevmind&theme=tokyonight&hide_border=true)
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=eliasdevmind&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+</p>
 
 ---
 
 ## 🌐 Onde me encontrar
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/eliasdevmind)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/eliasdevmind)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:eliasdevmind@outlook.com)
+<p align="center">
+  <a href="https://www.linkedin.com/in/eliasdevmind" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="https://github.com/eliasdevmind" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+  <a href="mailto:eliasdevmind@outlook.com" target="_blank">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+</p>
 
 ---
 
 ✨ *"Transformando dados e código em soluções inteligentes!"*  
+
+<p align="center">
+  <img src="https://media.giphy.com/media/3o7TKtnuHOHHUjR38Y/giphy.gif" width="200" alt="coding gif" />
+</p>
