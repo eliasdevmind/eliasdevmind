@@ -1,4 +1,4 @@
-# 👨‍💻 Olá, eu sou o Elias!  
+# Bem vindo ao meu GitHub!  
 
 > Desenvolvedor Full Stack & Analista de Dados — apaixonado por transformar ideias e dados em soluções inteligentes 🚀  
 
