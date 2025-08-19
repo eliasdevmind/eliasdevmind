@@ -8,7 +8,7 @@
 - 🎯 Sempre em busca de aprender coisas novas no mundo da **programação** e **dados**  
 - 🧑‍💻 Trabalho com **desenvolvimento web, backend, automações e análise de dados**  
 - 📊 Gosto de transformar números em **insights poderosos**  
-- 🎮 Gamer nas horas vagas & curioso por natureza  
+- 🎮 Gamer nas horas vagas & Muito Nerd  
 - 💡 Apaixonado por **tecnologia e inovação**  
 
 <p align="center">
