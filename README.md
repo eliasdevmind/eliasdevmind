@@ -1,6 +1,6 @@
-# 👋 Bem-vindo ao meu GitHub!  
+# 👋 <span style="color:#ff79c6;">Bem-vindo ao meu GitHub!</span>  
 
-> Desenvolvedor Full Stack & Analista de Dados — apaixonado por transformar ideias e dados em soluções inteligentes 🚀  
+> <i>Desenvolvedor Full Stack & Analista de Dados — apaixonado por transformar ideias e dados em soluções inteligentes 🚀</i>  
 
 ---
 
@@ -10,6 +10,10 @@
 - 📊 Gosto de transformar números em **insights poderosos**  
 - 🎮 Gamer nas horas vagas & curioso por natureza  
 - 💡 Apaixonado por **tecnologia e inovação**  
+
+<p align="center">
+  <img src="https://media.giphy.com/media/L0c8ww12lq1Do/giphy.gif" width="200" alt="coding gif" />
+</p>
 
 ---
 
@@ -69,8 +73,4 @@
 
 ---
 
-✨ *"Transformando dados e código em soluções inteligentes!"*  
-
-<p align="center">
-  <img src="https://media.giphy.com/media/3o7TKtnuHOHHUjR38Y/giphy.gif" width="200" alt="coding gif" />
-</p>
+✨ <span style="color:#50fa7b;"><b>"Transformando dados e código em soluções inteligentes!"</b></span>  
