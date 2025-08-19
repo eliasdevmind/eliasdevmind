@@ -12,7 +12,7 @@
 - 💡 Apaixonado por **tecnologia e inovação**  
 
 <p align="center">
-  <img src="https://media.giphy.com/media/L0c8ww12lq1Do/giphy.gif" width="220" alt="coding gif" style="border-radius: 15px; box-shadow: 0 0 15px rgba(0,0,0,0.3);" />
+  <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExNXlkOW12azZ4emVubGZqbWRubmU5MHdqeGN2Mmp5YXhrYWx5MG52NCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/78XCFBGOlS6keY1Bil/giphy.gif" width="220" alt="coding gif" style="border-radius: 15px; box-shadow: 0 0 15px rgba(0,0,0,0.3);" />
 </p>
 
 ---
