@@ -44,16 +44,6 @@
 
 ---
 
-## 🚀 Projetos em Destaque
-
-| 🌟 Projeto | 🚀 Tecnologias | 📖 Descrição |
-|------------|----------------|--------------|
-| [**Sistema de Gestão**](#) | Python • Flask • MySQL | Sistema para gerenciamento de dados com relatórios e dashboards |
-| [**Dashboard de Vendas**](#) | Power BI • SQL | Painel interativo de vendas e indicadores de negócios |
-| [**API REST**](#) | Node.js • Express • MongoDB | API escalável para aplicações modernas |
-
----
-
 ## 🔥 Atividade no GitHub
 ![GitHub Streak](https://streak-stats.demolab.com?user=eliasdevmind&theme=tokyonight&hide_border=true)
 
