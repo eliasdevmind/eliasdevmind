@@ -1,6 +1,15 @@
-# 👋 <span style="background: linear-gradient(90deg,#ff79c6,#8be9fd); -webkit-background-clip: text; color: transparent;">Bem-vindo ao meu GitHub!</span>  
+<!-- ================================= -->
+<!-- ✨ CABEÇALHO ANIMADO -->
+<!-- ================================= -->
 
-> <i>Desenvolvedor Full Stack & Analista de Dados — transformando ideias e dados em soluções inteligentes 🚀</i>  
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=200&text=Bem-vindo%20ao%20meu%20GitHub!&fontAlign=50&fontAlignY=38&fontSize=38&color=0:ff79c6,50:8be9fd,100:50fa7b&animation=twinkling&fontColor=ffffff" alt="Header">
+</p>
+
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=2800&pause=800&color=8BE9FD&center=true&vCenter=true&width=1000&lines=Desenvolvedor+Full+Stack;Analista+de+Dados;Transformando+ideias+em+soluções+inteligentes+🚀" alt="Typing SVG">
+</p>
+
 
 ---
 
@@ -12,15 +21,19 @@
 - 💡 Apaixonado por **tecnologia e inovação**  
 
 <p align="center">
-  <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExNXlkOW12azZ4emVubGZqbWRubmU5MHdqeGN2Mmp5YXhrYWx5MG52NCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/78XCFBGOlS6keY1Bil/giphy.gif" width="220" alt="coding gif" style="border-radius: 15px; box-shadow: 0 0 15px rgba(0,0,0,0.3);" />
+  <img src="https://media1.giphy.com/media/78XCFBGOlS6keY1Bil/giphy.gif" width="260" alt="coding gif" style="border-radius: 20px; box-shadow: 0 0 25px rgba(138,43,226,0.6);" />
 </p>
 
 ---
 
 ## 📊 Estatísticas do GitHub
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=eliasdevmind&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=eliasdevmind&layout=compact&theme=tokyonight&hide_border=true" alt="Top Langs" />
+  <img src="https://github-readme-stats.vercel.app/api?username=eliasdevmind&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&bg_color=00000060&title_color=ff79c6&icon_color=8be9fd&text_color=ffffff" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=eliasdevmind&layout=compact&theme=tokyonight&hide_border=true&bg_color=00000060&title_color=50fa7b&text_color=ffffff" height="165" />
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=eliasdevmind&theme=tokyonight&hide_border=true&background=00000060&ring=ff79c6&fire=ff5555&currStreakLabel=50fa7b" height="165" />
 </p>
 
 ---
@@ -28,33 +41,38 @@
 ## 🛠️ Tecnologias & Ferramentas
 
 ### 🚀 Linguagens & Frameworks
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white&labelColor=000000)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black&labelColor=282C34)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white&labelColor=000000)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white&labelColor=282C34)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB&labelColor=000000)
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,js,ts,nodejs,php,laravel,react,nextjs,html,css,tailwind&theme=dark" />
+</p>
 
 ### 🗄️ Banco de Dados
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white&labelColor=000000)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white&labelColor=282C34)
-![SQLite](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white&labelColor=000000)
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=mysql,postgres,sqlite,mongodb&theme=dark" />
+</p>
 
 ### 📊 Dados & BI
-![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black&labelColor=282C34)
-![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white&labelColor=000000)
-
-### ⚙️ Ferramentas & Outras Tecnologias
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white&labelColor=282C34)
-![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white&labelColor=000000)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black&labelColor=282C34)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white&labelColor=000000)
-
----
-
-## 🔥 Atividade no GitHub
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=eliasdevmind&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white&labelColor=000000" />
+  <img src="https://img.shields.io/badge/Numpy-013243?style=for-the-badge&logo=numpy&logoColor=white&labelColor=000000" />
+  <img src="https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=000&labelColor=282C34" />
+  <img src="https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white&labelColor=000000" />
 </p>
+
+### ⚙️ DevOps & Ferramentas
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=docker,git,github,linux,vscode,vercel&theme=dark" />
+  <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white&labelColor=000000" />
+  <img src="https://img.shields.io/badge/Insomnia-5849BE?style=for-the-badge&logo=insomnia&logoColor=white&labelColor=000000" />
+</p>
+
+<details>
+  <summary><b>🔎 Extras</b></summary>
+  <p>
+    <img src="https://img.shields.io/badge/Jest-C21325?style=for-the-badge&logo=jest&logoColor=white&labelColor=000000" />
+    <img src="https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=000&labelColor=000000" />
+    <img src="https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white&labelColor=000000" />
+  </p>
+</details>
 
 ---
 
@@ -73,4 +91,8 @@
 
 ---
 
-✨ <span style="color:#50fa7b;"><b>"Transformando dados e código em soluções inteligentes!"</b></span>  
+<p align="center">
+  ✨ <span style="color:#50fa7b; font-weight: bold;">"Transformando dados e código em soluções inteligentes!"</span> ✨
+</p>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&height=100&color=0:50fa7b,100:8be9fd&section=footer" width="100%" />
