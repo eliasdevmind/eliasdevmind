@@ -42,7 +42,7 @@
 
 ### 🚀 Linguagens & Frameworks
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,js,ts,nodejs,php,laravel,react,nextjs,html,css,tailwind&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=python,js,ts,nodejs,php,laravel,nextjs,html,css,tailwind&theme=dark" />
 </p>
 
 ### 🗄️ Banco de Dados
