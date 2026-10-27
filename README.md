@@ -78,6 +78,9 @@
 
 ## 🌐 Onde me encontrar
 <p align="center">
+  <a href="https://eliasdevmind.github.io/eliasdevmind/" target="_blank">
+    <img src="https://img.shields.io/badge/Portf%C3%B3lio-0b121c?style=for-the-badge&logo=githubpages&logoColor=5ee1e8&labelColor=000000" />
+  </a>
   <a href="https://www.linkedin.com/in/eliasdevmind" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=000000" />
   </a>

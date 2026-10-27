@@ -1,0 +1,431 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Elias — Full Stack & Dados</title>
+  <meta name="description" content="Elias (eliasdevmind): desenvolvedor full stack e analista de dados. Transformando dados e código em soluções inteligentes." />
+  <meta name="theme-color" content="#0b121c" media="(prefers-color-scheme: dark)" />
+  <meta name="theme-color" content="#f5f2ec" media="(prefers-color-scheme: light)" />
+  <meta property="og:title" content="Elias — Full Stack & Dados" />
+  <meta property="og:description" content="Transformando dados e código em soluções inteligentes." />
+  <meta property="og:type" content="website" />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <script>
+    (function () {
+      var t = null;
+      try { t = localStorage.getItem('theme'); } catch (e) {}
+      if (!t) t = matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+      document.documentElement.dataset.theme = t;
+    })();
+  </script>
+</head>
+<body class="is-loading">
+  <a class="skip" href="#main">Pular para o conteúdo</a>
+
+  <!-- intro -->
+  <div class="loader" aria-hidden="true">
+    <div class="loader__inner">
+      <span class="loader__logo">elias<b>/</b>devmind</span>
+      <span class="loader__count">00</span>
+    </div>
+    <span class="loader__bar"></span>
+  </div>
+
+  <div class="progress" aria-hidden="true"></div>
+  <div class="cursor" aria-hidden="true"><span class="cursor__cross"><b></b><b></b><b></b><b></b></span><span class="cursor__dot"></span><span class="cursor__label"></span></div>
+
+  <!-- ================= NAV ================= -->
+  <header class="nav">
+    <a class="logo" href="#inicio" aria-label="Elias — início">
+      <span class="logo__mark" aria-hidden="true">
+        <svg viewBox="0 0 40 40"><circle class="logo__core" cx="20" cy="20" r="7"/><ellipse class="logo__orbit" cx="20" cy="20" rx="17" ry="7" transform="rotate(-25 20 20)"/><g class="logo__sat"><circle cx="37" cy="20" r="3"/></g></svg>
+      </span>
+      <span class="logo__word">elias<small>/devmind</small></span>
+    </a>
+
+    <nav class="dock" aria-label="Seções">
+      <span class="dock__pill" aria-hidden="true"></span>
+      <a href="#inicio" class="is-active"><i>01</i>início</a>
+      <a href="#sobre"><i>02</i>sobre</a>
+      <a href="#expertise"><i>03</i>expertise</a>
+      <a href="#projetos"><i>04</i>projetos</a>
+      <a href="#fluxo"><i>05</i>fluxo</a>
+      <a href="#contato"><i>06</i>contato</a>
+    </nav>
+
+    <div class="nav__tools">
+      <button class="kbd-btn" data-action="palette" aria-label="Abrir paleta de comandos">
+        <kbd>Ctrl</kbd><kbd>K</kbd>
+      </button>
+      <button class="theme-btn" data-action="theme" aria-label="Alternar tema claro/escuro">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <mask id="moon-mask"><rect width="24" height="24" fill="#fff"/><circle class="theme-btn__cut" cx="17" cy="7" r="6" fill="#000"/></mask>
+          <circle class="theme-btn__core" cx="12" cy="12" r="5" mask="url(#moon-mask)"/>
+          <g class="theme-btn__rays"><path d="M12 1.5v2.5M12 20v2.5M4.6 4.6l1.8 1.8M17.6 17.6l1.8 1.8M1.5 12H4M20 12h2.5M4.6 19.4l1.8-1.8M17.6 6.4l1.8-1.8"/></g>
+        </svg>
+      </button>
+      <button class="menu-btn" aria-label="Abrir menu" aria-expanded="false" aria-controls="mobile-menu"><span></span><span></span></button>
+    </div>
+  </header>
+
+  <div class="mobile-menu" id="mobile-menu" hidden>
+    <a href="#inicio"><sup>01</sup>início</a>
+    <a href="#sobre"><sup>02</sup>sobre</a>
+    <a href="#expertise"><sup>03</sup>expertise</a>
+    <a href="#projetos"><sup>04</sup>projetos</a>
+    <a href="#fluxo"><sup>05</sup>fluxo</a>
+    <a href="#contato"><sup>06</sup>contato</a>
+  </div>
+
+  <main id="main">
+    <!-- ================= HERO ================= -->
+    <section id="inicio" class="hero" aria-label="Apresentação">
+      <canvas class="hero__canvas" aria-hidden="true"></canvas>
+
+      <div class="hero__content">
+        <p class="hero__status"><span class="pulse"></span> disponível para novos projetos</p>
+
+        <p class="hero__hello">olá, eu sou</p>
+        <h1 class="hero__name" aria-label="Elias">
+          <span class="hero__name-layer hero__name-layer--solid" data-split>Elias</span>
+          <span class="hero__name-layer hero__name-layer--wire" data-split aria-hidden="true">Elias</span>
+        </h1>
+
+        <p class="hero__lead">Transformo <mark>dados</mark> e <mark class="alt">código</mark> em soluções inteligentes — do banco de dados ao dashboard.</p>
+        <p class="hero__role" data-scramble="FULL STACK DEV · DATA ANALYST">FULL STACK DEV · DATA ANALYST</p>
+
+        <div class="hero__cta">
+          <a class="btn magnetic" href="#projetos"><span>Ver projetos</span><i aria-hidden="true">→</i></a>
+          <a class="btn btn--ghost magnetic" href="#sobre"><span>Currículo</span></a>
+        </div>
+      </div>
+
+      <p class="hero__hint" aria-hidden="true"><span class="hero__hint-dot"></span> mova o mouse: a lente revela os dados por trás do sistema</p>
+
+      <dl class="telemetry" aria-label="Telemetria">
+        <div><dt>horário · brasília</dt><dd data-clock>--:--:--</dd></div>
+        <div><dt>status</dt><dd><span class="pulse"></span> online</dd></div>
+        <div><dt>stack em órbita</dt><dd data-rotate='["Python","TypeScript","Node.js","Laravel","Pandas","Power BI","Docker","PostgreSQL"]'>Python</dd></div>
+        <div><dt>lente</dt><dd data-lens>x 0.00 · y 0.00</dd></div>
+      </dl>
+    </section>
+
+    <!-- ================= SOBRE + CURRÍCULO ================= -->
+    <section id="sobre" class="section about">
+      <header class="section__head">
+        <p class="eyebrow"><span>02</span>sobre</p>
+        <h2 class="section__title" data-reveal-words>Prazer, eu sou o Elias.</h2>
+      </header>
+
+      <div class="about__grid">
+        <!--
+          FOTO: salve sua foto como docs/assets/img/foto.jpg (formato retrato, ~900×1100px).
+          Enquanto ela não existir, aparece o monograma "E." no lugar.
+        -->
+        <figure class="photo reveal" data-photo>
+          <div class="photo__frame">
+            <img class="photo__img" src="assets/img/foto.jpg" alt="Foto de Elias" width="900" height="1100" loading="lazy" decoding="async" />
+            <img class="photo__img photo__img--data" src="assets/img/foto.jpg" alt="" aria-hidden="true" width="900" height="1100" loading="lazy" decoding="async" />
+            <div class="photo__fallback" aria-hidden="true"><span>E<b>.</b></span></div>
+            <span class="photo__line" aria-hidden="true"></span>
+          </div>
+          <figcaption>
+            <span><i class="pulse"></i> online</span>
+            <span>eliasdevmind</span>
+          </figcaption>
+        </figure>
+
+        <div class="about__text">
+          <p class="about__lead reveal">Sou <strong>desenvolvedor full stack</strong> e <strong>analista de dados</strong>. Gosto de ficar no meio do caminho entre o código e os números: construo a aplicação, coleto o que ela gera e transformo isso em decisão.</p>
+          <p class="reveal">Trabalho com desenvolvimento web, backend, automações e análise de dados. Estou sempre em busca de aprender algo novo — e nas horas vagas sou gamer e muito nerd.</p>
+
+          <ul class="facts reveal">
+            <li><small>foco</small><span>Web · Backend · Dados</span></li>
+            <li><small>stack principal</small><span>Python · TS · PHP</span></li>
+            <li><small>status</small><span>Aberto a projetos e vagas</span></li>
+            <li><small>hobby</small><span>Games & tecnologia</span></li>
+          </ul>
+
+          <a class="btn magnetic reveal" href="#contato"><span>Vamos conversar</span><i aria-hidden="true">→</i></a>
+        </div>
+      </div>
+
+      <!-- ---------- currículo (estilo git log) ---------- -->
+      <div class="resume">
+        <div class="resume__head reveal">
+          <h3 class="resume__title">Currículo</h3>
+          <p>Minha trajetória como um histórico de commits. Clique em cada um para ver os detalhes.</p>
+        </div>
+
+        <div class="log reveal">
+          <div class="log__bar">
+            <span class="log__dots" aria-hidden="true"><i></i><i></i><i></i></span>
+            <span class="log__cmd"><b>~/curriculo</b> git log --graph --all</span>
+          </div>
+
+          <div class="log__branch"><span>branch</span> experiência</div>
+
+          <details class="commit" open>
+            <summary>
+              <span class="commit__hash">a7e19c4</span>
+              <span class="commit__msg">Desenvolvedor Full Stack & Analista de Dados <em>· Projetos independentes</em></span>
+              <span class="commit__ref">HEAD → atual</span>
+            </summary>
+            <div class="commit__body">
+              <ul>
+                <li><b>+</b> Aplicações web e APIs com PHP, JavaScript e Python.</li>
+                <li><b>+</b> Automação de processos, como a leitura de arquivos bancários de remessa e retorno.</li>
+                <li><b>+</b> Tratamento de planilhas, CSV e análise de dados com Pandas e Power BI.</li>
+              </ul>
+              <ul class="chips"><li>PHP</li><li>JavaScript</li><li>Python</li><li>SQL</li><li>Power BI</li></ul>
+            </div>
+          </details>
+
+          <!--
+            MODELO — copie para adicionar uma experiência (o hash é só decorativo):
+          <details class="commit">
+            <summary>
+              <span class="commit__hash">3b9d0e1</span>
+              <span class="commit__msg">Cargo <em>· Empresa</em></span>
+              <span class="commit__ref">2023 — 2025</span>
+            </summary>
+            <div class="commit__body">
+              <ul><li><b>+</b> O que você fez / entregou.</li></ul>
+              <ul class="chips"><li>Tecnologia</li></ul>
+            </div>
+          </details>
+          -->
+
+          <div class="log__branch"><span>branch</span> formação</div>
+
+          <details class="commit">
+            <summary>
+              <span class="commit__hash">5c2f8a0</span>
+              <span class="commit__msg">Imersão IA <em>· Alura + Google</em></span>
+              <span class="commit__ref">2024</span>
+            </summary>
+            <div class="commit__body"><ul><li><b>+</b> Fundamentos de IA generativa e uso de modelos na prática com Python.</li></ul></div>
+          </details>
+
+          <details class="commit">
+            <summary>
+              <span class="commit__hash">e81b3d7</span>
+              <span class="commit__msg">Java e orientação a objetos <em>· Alura</em></span>
+              <span class="commit__ref">2024</span>
+            </summary>
+            <div class="commit__body"><ul><li><b>+</b> Classes, objetos e encapsulamento — com o desafio de um sistema bancário em Java.</li></ul></div>
+          </details>
+
+          <details class="commit">
+            <summary>
+              <span class="commit__hash">0d4a6f2</span>
+              <span class="commit__msg">Desafios de front-end <em>· Projeto Trilhas</em></span>
+              <span class="commit__ref">2024</span>
+            </summary>
+            <div class="commit__body"><ul><li><b>+</b> Landing pages e desafios práticos com HTML, CSS e JavaScript.</li></ul></div>
+          </details>
+
+          <!-- MODELO — graduação / outros cursos: copie um <details class="commit"> acima. -->
+
+          <div class="log__end">● início da história</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= EXPERTISE ================= -->
+    <section id="expertise" class="section">
+      <header class="section__head">
+        <p class="eyebrow"><span>03</span>expertise</p>
+        <h2 class="section__title" data-reveal-words>Onde o código encontra os dados.</h2>
+        <p class="section__lead reveal">Três frentes que se completam: construir o produto, entender o que ele gera e automatizar o resto.</p>
+      </header>
+
+      <div class="cards">
+        <article class="card reveal" data-spot>
+          <div class="card__icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48"><path class="draw" d="M16 14L6 24l10 10M32 14l10 10-10 10M27 10l-6 28"/></svg>
+          </div>
+          <h3>Desenvolvimento <em>Full Stack</em></h3>
+          <p>APIs, painéis e aplicações web completas — do banco ao deploy, com foco em performance e manutenção.</p>
+          <ul class="chips"><li>Node.js</li><li>Next.js</li><li>Laravel</li><li>TypeScript</li><li>PHP</li></ul>
+        </article>
+
+        <article class="card reveal" data-spot>
+          <div class="card__icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48"><path class="draw" d="M6 40h36M10 34V22M19 34V12M28 34V26M37 34V8"/></svg>
+          </div>
+          <h3>Análise de <em>Dados</em></h3>
+          <p>Limpeza, modelagem e visualização. Dashboards que respondem perguntas reais do negócio.</p>
+          <ul class="chips"><li>Python</li><li>Pandas</li><li>NumPy</li><li>Power BI</li><li>SQL</li></ul>
+        </article>
+
+        <article class="card reveal" data-spot>
+          <div class="card__icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48"><circle class="draw" cx="24" cy="24" r="7"/><path class="draw" d="M24 5v6M24 37v6M5 24h6M37 24h6M10.6 10.6l4.2 4.2M33.2 33.2l4.2 4.2M10.6 37.4l4.2-4.2M33.2 14.8l4.2-4.2"/></svg>
+          </div>
+          <h3>Automação & <em>DevOps</em></h3>
+          <p>Bots, scripts e pipelines que eliminam tarefas repetitivas e colocam tudo no ar com segurança.</p>
+          <ul class="chips"><li>Docker</li><li>Git</li><li>Linux</li><li>Vercel</li><li>Playwright</li></ul>
+        </article>
+      </div>
+
+      <dl class="stats reveal">
+        <div><dt>repositórios públicos</dt><dd><span data-stat="public_repos" data-fallback="39">0</span>+</dd></div>
+        <div><dt>tecnologias no dia a dia</dt><dd><span data-count="25">0</span>+</dd></div>
+        <div><dt>linguagens</dt><dd><span data-count="10">0</span></dd></div>
+        <div><dt>xícaras de café</dt><dd>∞</dd></div>
+      </dl>
+    </section>
+
+    <!-- ================= PROJETOS ================= -->
+    <section id="projetos" class="section">
+      <header class="section__head">
+        <p class="eyebrow"><span>04</span>projetos</p>
+        <h2 class="section__title" data-reveal-words>Trabalhos recentes.</h2>
+        <p class="section__lead reveal">Uma seleção dos meus repositórios públicos. Filtre por categoria e abra direto no GitHub.</p>
+      </header>
+
+      <div class="filters reveal" role="toolbar" aria-label="Filtrar por linguagem"></div>
+      <div class="projects" aria-live="polite">
+        <div class="project project--skeleton"></div>
+        <div class="project project--skeleton"></div>
+        <div class="project project--skeleton"></div>
+      </div>
+      <p class="projects__more reveal">
+        <a class="link-arrow" href="https://github.com/eliasdevmind?tab=repositories" target="_blank" rel="noopener">ver todos os repositórios <span>→</span></a>
+      </p>
+    </section>
+
+    <!-- ================= FLUXO ================= -->
+    <section id="fluxo" class="section flow">
+      <header class="section__head">
+        <p class="eyebrow"><span>05</span>fluxo</p>
+        <h2 class="section__title" data-reveal-words>Como eu trabalho.</h2>
+        <p class="section__lead reveal">Um processo claro, do primeiro papo até os números depois do lançamento.</p>
+      </header>
+
+      <div class="flow__wrap">
+        <aside class="flow__sticky" aria-hidden="true">
+          <svg class="flow__ring" viewBox="0 0 120 120">
+            <circle cx="60" cy="60" r="52" class="flow__ring-bg"/>
+            <circle cx="60" cy="60" r="52" class="flow__ring-fg"/>
+          </svg>
+          <span class="flow__num">01</span>
+          <span class="flow__label">imersão</span>
+        </aside>
+
+        <ol class="flow__steps">
+          <li class="step" data-step="imersão">
+            <span class="step__n">01</span>
+            <div>
+              <h3>Imersão</h3>
+              <p>Entendo o problema, o público e o objetivo. Definimos juntos o que é sucesso — e como medir.</p>
+              <ul class="chips"><li>briefing</li><li>escopo</li><li>metas</li></ul>
+            </div>
+          </li>
+          <li class="step" data-step="dados">
+            <span class="step__n">02</span>
+            <div>
+              <h3>Dados & arquitetura</h3>
+              <p>Modelo o banco, as integrações e o fluxo de informação. Decisões técnicas documentadas antes da primeira linha.</p>
+              <ul class="chips"><li>modelagem</li><li>APIs</li><li>stack</li></ul>
+            </div>
+          </li>
+          <li class="step" data-step="protótipo">
+            <span class="step__n">03</span>
+            <div>
+              <h3>Protótipo</h3>
+              <p>Interface navegável cedo, para validar a experiência antes de investir no desenvolvimento completo.</p>
+              <ul class="chips"><li>wireframe</li><li>UI</li><li>validação</li></ul>
+            </div>
+          </li>
+          <li class="step" data-step="código">
+            <span class="step__n">04</span>
+            <div>
+              <h3>Desenvolvimento</h3>
+              <p>Entregas curtas e frequentes, com testes, revisão e um ambiente de homologação sempre atualizado.</p>
+              <ul class="chips"><li>sprints</li><li>testes</li><li>code review</li></ul>
+            </div>
+          </li>
+          <li class="step" data-step="deploy">
+            <span class="step__n">05</span>
+            <div>
+              <h3>Deploy & métricas</h3>
+              <p>Publicação automatizada, monitoramento e um painel com os indicadores combinados na imersão.</p>
+              <ul class="chips"><li>CI/CD</li><li>Docker</li><li>dashboard</li></ul>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ================= CONTATO ================= -->
+    <section id="contato" class="section contact">
+      <header class="section__head">
+        <p class="eyebrow"><span>06</span>contato</p>
+        <h2 class="contact__title" data-reveal-words>Vamos construir algo <em>incrível</em>?</h2>
+      </header>
+
+      <div class="contact__grid">
+        <div class="contact__info reveal">
+          <p>Tem uma ideia, um projeto ou uma vaga? Me chama — respondo rápido.</p>
+          <button class="copy" data-copy="eliasdevmind@outlook.com" aria-label="Copiar e-mail">
+            <span class="copy__text">eliasdevmind@outlook.com</span>
+            <span class="copy__hint">copiar</span>
+          </button>
+          <ul class="contact__links">
+            <li><a href="https://www.linkedin.com/in/eliasdevmind" target="_blank" rel="noopener">LinkedIn <span>↗</span></a></li>
+            <li><a href="https://github.com/eliasdevmind" target="_blank" rel="noopener">GitHub <span>↗</span></a></li>
+            <li><a href="mailto:eliasdevmind@outlook.com">E-mail <span>↗</span></a></li>
+          </ul>
+        </div>
+
+        <form class="form reveal" novalidate>
+          <div class="form__row">
+            <label class="field"><input name="nome" required placeholder=" " autocomplete="name" /><span>Nome</span></label>
+            <label class="field"><input name="email" type="email" required placeholder=" " autocomplete="email" /><span>E-mail</span></label>
+          </div>
+          <fieldset class="form__topics">
+            <legend>Assunto</legend>
+            <label><input type="radio" name="assunto" value="Projeto web" checked /><span>Projeto web</span></label>
+            <label><input type="radio" name="assunto" value="Dados / BI" /><span>Dados / BI</span></label>
+            <label><input type="radio" name="assunto" value="Automação" /><span>Automação</span></label>
+            <label><input type="radio" name="assunto" value="Vaga" /><span>Vaga</span></label>
+          </fieldset>
+          <label class="field"><textarea name="mensagem" required rows="4" placeholder=" "></textarea><span>Mensagem</span></label>
+          <button class="btn magnetic" type="submit"><span>Enviar mensagem</span><i aria-hidden="true">→</i></button>
+          <p class="form__status" role="status"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span>© <span data-year></span> Elias · eliasdevmind</span>
+    <span class="footer__mono">feito à mão com HTML, CSS & JS — zero dependências</span>
+    <a href="#inicio" class="link-arrow">voltar ao topo <span>↑</span></a>
+  </footer>
+
+  <!-- ================= PALETA DE COMANDOS ================= -->
+  <div class="palette" hidden role="dialog" aria-modal="true" aria-label="Paleta de comandos">
+    <div class="palette__box">
+      <div class="palette__search">
+        <span aria-hidden="true">›</span>
+        <input class="palette__input" placeholder="Para onde vamos?" aria-label="Buscar comando" />
+        <kbd>Esc</kbd>
+      </div>
+      <ul class="palette__list" role="listbox"></ul>
+      <p class="palette__foot"><span><kbd>↑</kbd><kbd>↓</kbd> navegar</span><span><kbd>Enter</kbd> abrir</span></p>
+    </div>
+  </div>
+
+  <div class="toast" role="status" aria-live="polite"></div>
+
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>
