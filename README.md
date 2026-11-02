@@ -14,7 +14,7 @@
 
 ## 👨‍💻 Sobre mim
 
-Desenvolvedor **Full Stack com foco em automação e dados**. Comecei pela programação e hoje trabalho bastante com automação, usando **Python, SQL e Power BI**, além de **PHP, Angular e Golang** no desenvolvimento de aplicações.
+Desenvolvedor **Full Stack com foco em automação e dados**. Comecei em TI com manutenção de computadores e hoje trabalho bastante com automação, usando **Python, SQL e Power BI**, além de **PHP, Angular e Golang** no desenvolvimento de aplicações.
 Gosto de entender como uma rotina funciona, identificar o que pode ser automatizado e construir soluções práticas.
 
 📍 São Luís – MA, Brasil
