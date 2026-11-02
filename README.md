@@ -1,13 +1,3 @@
-<!--
-COMO USAR (apague este bloco na versão pública)
-1. No repositório público github.com/eliasdevmind/eliasdevmind (já pode existir: edite o README atual), crie a pasta "assets" e envie
-   header.svg e header.png (arquivos em github-perfil\assets\). Depois cole este README.md.
-2. Os cartões de estatística vêm de serviços externos (github-readme-stats, streak-stats). Mostram dados REAIS do seu GitHub, mas
-   podem ficar fora do ar às vezes. Se algum não carregar, apague aquele bloco.
-3. Antes de publicar, confirme com o Mestre o que é experiência de trabalho e o que é conhecimento/estudo, e preencha os projetos com dados reais.
-4. Contato: só LinkedIn/portfólio/Instagram (sem e-mail nem telefone).
--->
-
 <div align="center">
 
 <img src="assets/header.svg" alt="Elias — Automação e dados na prática" width="100%"/>
@@ -56,23 +46,15 @@ flowchart LR
 
 ## 🚀 Projetos em destaque
 
-<div align="center">
+| Projeto | O que é | Tecnologias |
+|---|---|---|
+| [**leitor-de-rem-e-ret**](https://github.com/eliasdevmind/leitor-de-rem-e-ret) | Automação que lê arquivos `.REM` e `.RET`, gera arquivos de saída e uma análise | Python |
+| [**planilha-csv**](https://github.com/eliasdevmind/planilha-csv) | Converte CSV em Excel formatado, configurável por `config.json` (com manual) | Python |
+| [**e-comerce**](https://github.com/eliasdevmind/e-comerce) | E-commerce de jogos: carrinho, pedidos, pagamento com Mercado Pago, painel administrativo e analytics | JavaScript, back-end + banco de dados |
+| [**imersaoIA**](https://github.com/eliasdevmind/imersaoIA) | Chatbot em Flask que usa a API Gemini para tirar dúvidas sobre jogos | Python, Flask |
+| [**projetoApiDeImages**](https://github.com/eliasdevmind/projetoApiDeImages) | API REST (Flask-RESTx) que devolve imagens por categoria | Python, Flask |
 
-<a href="https://github.com/eliasdevmind/imersaoIA"><img src="https://github-readme-stats.vercel.app/api/pin/?username=eliasdevmind&repo=imersaoIA&theme=transparent&bg_color=0F172A&title_color=38BDF8&text_color=CBD5E1&icon_color=38BDF8&border_color=1E293B&hide_border=false" alt="imersaoIA"/></a>
-<a href="https://github.com/eliasdevmind/projetoApiDeImages"><img src="https://github-readme-stats.vercel.app/api/pin/?username=eliasdevmind&repo=projetoApiDeImages&theme=transparent&bg_color=0F172A&title_color=38BDF8&text_color=CBD5E1&icon_color=38BDF8&border_color=1E293B&hide_border=false" alt="projetoApiDeImages"/></a>
-
-</div>
-
-<!-- Quando o projeto de automação e dados de ponta a ponta estiver pronto, adicione aqui um cartão e uma frase: problema, minha contribuição, como executar. -->
-
-## 📈 GitHub em números
-
-<div align="center">
-
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=eliasdevmind&show_icons=true&hide_border=false&bg_color=0F172A&title_color=38BDF8&text_color=CBD5E1&icon_color=38BDF8&border_color=1E293B" alt="Estatísticas do GitHub"/>
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=eliasdevmind&layout=compact&hide_border=false&bg_color=0F172A&title_color=38BDF8&text_color=CBD5E1&border_color=1E293B" alt="Linguagens mais usadas"/>
-
-</div>
+<sub>Veja todos os repositórios em [github.com/eliasdevmind?tab=repositories](https://github.com/eliasdevmind?tab=repositories).</sub>
 
 ## 📝 O que compartilho
 
